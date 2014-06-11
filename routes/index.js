@@ -7,8 +7,8 @@ exports.index = function (req, res) {
     res.render('index', { title: 'Express' });
     if (req.session.oauth) {
         var twit = new twitter({
-            consumer_key: "A6x1nzmmmerCCmVN8zTgew",
-            consumer_secret: "oOMuBkeqXLqoJkSklhpTrsvuZXo9VowyABS8EkAUw",
+            consumer_key: "wuOmkt9cL0VLCFJ3HEqf4vlaw",
+            consumer_secret: "hfNtkmr8kreLUdD2yXwkYV98HRSqxTojoduUt1etyUHuvfW85E",
             access_token_key: req.session.oauth.access_token,
             access_token_secret: req.session.oauth.access_token_secret
         });
